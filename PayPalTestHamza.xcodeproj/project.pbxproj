@@ -13,6 +13,15 @@
 		BB5A966B1C348CE900CBABD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5A966A1C348CE900CBABD6 /* Assets.xcassets */; };
 		BB5A966E1C348CE900CBABD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5A966C1C348CE900CBABD6 /* LaunchScreen.storyboard */; };
 		BB5A96791C348CE900CBABD6 /* PayPalTestHamzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5A96781C348CE900CBABD6 /* PayPalTestHamzaTests.swift */; };
+		BB7267841C34926F0032F092 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7267751C3492260032F092 /* Accelerate.framework */; };
+		BB7267851C34926F0032F092 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB72677B1C3492260032F092 /* AudioToolbox.framework */; };
+		BB72678D1C34926F0032F092 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7267861C34926F0032F092 /* AVFoundation.framework */; };
+		BB72678E1C34926F0032F092 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7267871C34926F0032F092 /* CoreLocation.framework */; };
+		BB72678F1C34926F0032F092 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7267881C34926F0032F092 /* CoreMedia.framework */; };
+		BB7267901C34926F0032F092 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7267891C34926F0032F092 /* MessageUI.framework */; };
+		BB7267911C34926F0032F092 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB72678A1C34926F0032F092 /* MobileCoreServices.framework */; };
+		BB7267921C34926F0032F092 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB72678B1C34926F0032F092 /* SafariServices.framework */; };
+		BB7267931C34926F0032F092 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB72678C1C34926F0032F092 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FB99F20DF6A5A08526B767A /* Pods-PayPalTestHamza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPalTestHamza.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayPalTestHamza/Pods-PayPalTestHamza.release.xcconfig"; sourceTree = "<group>"; };
+		913E155A52D5A0D12451B554 /* Pods_PayPalTestHamza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPalTestHamza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5A96601C348CE900CBABD6 /* PayPalTestHamza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPalTestHamza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5A96631C348CE900CBABD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB5A96651C348CE900CBABD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,23 @@
 		BB5A96741C348CE900CBABD6 /* PayPalTestHamzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPalTestHamzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5A96781C348CE900CBABD6 /* PayPalTestHamzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalTestHamzaTests.swift; sourceTree = "<group>"; };
 		BB5A967A1C348CE900CBABD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7267711C3491060032F092 /* PayPalTestHamza-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayPalTestHamza-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB7267741C3491960032F092 /* ZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAppDelegate.h; sourceTree = "<group>"; };
+		BB7267751C3492260032F092 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BB7267761C3492260032F092 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BB7267771C3492260032F092 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BB7267781C3492260032F092 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		BB7267791C3492260032F092 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		BB72677A1C3492260032F092 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BB72677B1C3492260032F092 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB7267861C34926F0032F092 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BB7267871C34926F0032F092 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB7267881C34926F0032F092 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BB7267891C34926F0032F092 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BB72678A1C34926F0032F092 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BB72678B1C34926F0032F092 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		BB72678C1C34926F0032F092 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E730E0A5B46EC4109F03B87F /* Pods-PayPalTestHamza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPalTestHamza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayPalTestHamza/Pods-PayPalTestHamza.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB72678D1C34926F0032F092 /* AVFoundation.framework in Frameworks */,
+				BB72678E1C34926F0032F092 /* CoreLocation.framework in Frameworks */,
+				BB72678F1C34926F0032F092 /* CoreMedia.framework in Frameworks */,
+				BB7267901C34926F0032F092 /* MessageUI.framework in Frameworks */,
+				BB7267911C34926F0032F092 /* MobileCoreServices.framework in Frameworks */,
+				BB7267921C34926F0032F092 /* SafariServices.framework in Frameworks */,
+				BB7267931C34926F0032F092 /* SystemConfiguration.framework in Frameworks */,
+				BB7267841C34926F0032F092 /* Accelerate.framework in Frameworks */,
+				BB7267851C34926F0032F092 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +93,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11BD36D134064360F7709B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB7267861C34926F0032F092 /* AVFoundation.framework */,
+				BB7267871C34926F0032F092 /* CoreLocation.framework */,
+				BB7267881C34926F0032F092 /* CoreMedia.framework */,
+				BB7267891C34926F0032F092 /* MessageUI.framework */,
+				BB72678A1C34926F0032F092 /* MobileCoreServices.framework */,
+				BB72678B1C34926F0032F092 /* SafariServices.framework */,
+				BB72678C1C34926F0032F092 /* SystemConfiguration.framework */,
+				BB7267751C3492260032F092 /* Accelerate.framework */,
+				BB7267761C3492260032F092 /* Accounts.framework */,
+				BB7267771C3492260032F092 /* AddressBook.framework */,
+				BB7267781C3492260032F092 /* AddressBookUI.framework */,
+				BB7267791C3492260032F092 /* AdSupport.framework */,
+				BB72677A1C3492260032F092 /* AssetsLibrary.framework */,
+				BB72677B1C3492260032F092 /* AudioToolbox.framework */,
+				913E155A52D5A0D12451B554 /* Pods_PayPalTestHamza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77543FF3C8F0A8B0477886EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E730E0A5B46EC4109F03B87F /* Pods-PayPalTestHamza.debug.xcconfig */,
+				6FB99F20DF6A5A08526B767A /* Pods-PayPalTestHamza.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB5A96571C348CE900CBABD6 = {
 			isa = PBXGroup;
 			children = (
 				BB5A96621C348CE900CBABD6 /* PayPalTestHamza */,
+				77543FF3C8F0A8B0477886EB /* Pods */,
 				BB5A96771C348CE900CBABD6 /* PayPalTestHamzaTests */,
 				BB5A96611C348CE900CBABD6 /* Products */,
+				11BD36D134064360F7709B1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +153,8 @@
 				BB5A966A1C348CE900CBABD6 /* Assets.xcassets */,
 				BB5A966C1C348CE900CBABD6 /* LaunchScreen.storyboard */,
 				BB5A966F1C348CE900CBABD6 /* Info.plist */,
+				BB7267711C3491060032F092 /* PayPalTestHamza-Bridging-Header.h */,
+				BB7267741C3491960032F092 /* ZZAppDelegate.h */,
 			);
 			path = PayPalTestHamza;
 			sourceTree = "<group>";
@@ -103,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB5A967D1C348CE900CBABD6 /* Build configuration list for PBXNativeTarget "PayPalTestHamza" */;
 			buildPhases = (
+				5A62FE2D0398C58316095A1D /* Check Pods Manifest.lock */,
 				BB5A965C1C348CE900CBABD6 /* Sources */,
 				BB5A965D1C348CE900CBABD6 /* Frameworks */,
 				BB5A965E1C348CE900CBABD6 /* Resources */,
+				87404AA7FD3542989C929A4D /* Embed Pods Frameworks */,
+				158F79CAB4C551013C9DA581 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +269,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		158F79CAB4C551013C9DA581 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPalTestHamza/Pods-PayPalTestHamza-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A62FE2D0398C58316095A1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87404AA7FD3542989C929A4D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPalTestHamza/Pods-PayPalTestHamza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB5A965C1C348CE900CBABD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +385,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -306,6 +430,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -325,23 +450,30 @@
 		};
 		BB5A967E1C348CE900CBABD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E730E0A5B46EC4109F03B87F /* Pods-PayPalTestHamza.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PayPalTestHamza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayPalTestHamza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayPalTestHamza/PayPalTestHamza-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BB5A967F1C348CE900CBABD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB99F20DF6A5A08526B767A /* Pods-PayPalTestHamza.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PayPalTestHamza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayPalTestHamza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayPalTestHamza/PayPalTestHamza-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -388,6 +520,7 @@
 				BB5A967F1C348CE900CBABD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB5A96801C348CE900CBABD6 /* Build configuration list for PBXNativeTarget "PayPalTestHamzaTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +529,7 @@
 				BB5A96821C348CE900CBABD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

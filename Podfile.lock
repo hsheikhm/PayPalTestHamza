@@ -1,0 +1,10 @@
+PODS:
+  - PayPal-iOS-SDK (2.11.5)
+
+DEPENDENCIES:
+  - PayPal-iOS-SDK (~> 2.11.1)
+
+SPEC CHECKSUMS:
+  PayPal-iOS-SDK: e5b0cf6c38866a47dad92f97df92848a90d3b858
+
+COCOAPODS: 0.39.0
