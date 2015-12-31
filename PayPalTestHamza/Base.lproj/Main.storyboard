@@ -23,8 +23,8 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnI-9a-12f">
-                                <rect key="frame" x="50" y="116" width="30" height="30"/>
-                                <state key="normal" title="Pay"/>
+                                <rect key="frame" x="50" y="125" width="131" height="45"/>
+                                <state key="normal" backgroundImage="Donate-Button"/>
                                 <connections>
                                     <action selector="payPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BX9-MA-sGO"/>
                                 </connections>
@@ -41,4 +41,7 @@
             <point key="canvasLocation" x="528" y="350"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Donate-Button" width="150" height="50"/>
+    </resources>
 </document>
